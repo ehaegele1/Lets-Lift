@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/CSS/workout.css">
+    <link href="https://fonts.googleapis.com/css?family=Germania+One&display=swap" rel="stylesheet">
+    <title> Lets Lift</title>
+  </head>
+  <body>
+    <style>
+      h1{
+        text-align: center;
+        font-size: 60px;
+        color: gold;
+        font-family: 'Germania One', cursive;
+      }
+      body{
+        background-image: url(https://images4.alphacoders.com/805/thumb-1920-805233.jpg);
+        background-size: cover;
+      }
+
+      .dropbtn{
+        background-color: gold;
+        color: black;
+        padding: 16px;
+        font-size: 30px;
+        border: none;
+        font-family: 'Germania One', cursive;
+      }
+
+      .dropdown{
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: gold;
+        border-color: black;
+        min-width: 160px;
+
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: 'Germania One', cursive;
+      }
+      .dropdown-content a:hover {
+        background-color: blue;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:hover .dropbtn {
+        background-color: blue;
+      }
+      ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style:none;
+      }
+
+      .createbtn{
+        background-color: gold;
+        display: inline-block;
+        position: relative;
+        border: none;
+        font-size: 30px;
+        color: black;
+        padding: 16px;
+        font-family: 'Germania One', cursive;
+      }
+      .createbtn:hover{
+        background-color: blue;
+      }
+      .loginbtn:hover{
+        background-color: blue;
+      }
+      .loginbtn{
+        background-color: gold;
+        display: inline-block;
+        position: relative;
+        border: none;
+        font-size: 30px;
+        color: black;
+        padding: 16px;
+      font-family: 'Germania One', cursive;
+      }
+
+      </style>
+      <h1>LETS LIFT</h1>
+  <nav>
+    <ul>
+      <li>
+    <div class="dropdown">
+      <button class="dropbtn">WORKOUTS</button>
+      <div class="dropdown-content">
+        <a href="/lift/arms">ARMS</a>
+        <a href="/lift/legs">LEGS</a>
+        <a href="/lift/chest">CHEST</a>
+        <a href="/lift/back">BACK</a>
+        <a href="/lift/shoulders">SHOULDERS</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class= "createbtn"
+            <button class ="createbtn"> <a href="/lift/new">Create New Workout</a></button>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </body>
+</html>

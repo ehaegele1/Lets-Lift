@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+          <link rel="stylesheet" href="/CSS/workout.css">
+        <title></title>
+    </head>
+    <body>
+      <style>
+        body{
+          background-image: url(https://images4.alphacoders.com/106/thumb-1920-1065702.jpg);
+          background-size: cover;
+        }
+        h1{
+          color:gold;
+          text-align: center;
+        }
+        .form{
+          color:gold;
+          font-size: 20px;
+          display:block;
+          text-align: center
+        }
+        button{
+          background-color: gold;
+          display: inline-block;
+          position: relative;
+          border: none;
+          font-size: 15px;
+          color: black;
+          padding: 16px;
+          float: right;
+        }
+
+        </style>
+        <h1>Create New Workout  <button type="button" name="button"><a href="/lift">HOME</a></button></h1>
+
+        <div class="form">
+          <form action="/lift" method="POST">
+              Arms: <input type="text"/><br/>
+              Legs: <input type="text"/><br/>
+              Back: <input type="text"/><br/>
+              Chest: <input type="text"/><br/>
+              Shoulders: <input type="text"/><br/>
+
+              <input type="submit" value="Create Workout" />
+          </form>
+        </div>
+    </body>
+</html>
