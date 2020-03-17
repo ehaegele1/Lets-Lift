@@ -1,1 +1,2 @@
 # Lets-Lift
+lets lift is an app that shows you different workouts based on each muscle group. It also allows you to create your own workouts based on muscle groups and rep and set ranges. I used restful routes in order to make this app. I created a drop down menu that has each of the muscle groups that link to different show pages that display workouts for each of the muscle groups listed. Then I created a link to a new page where you are able to create your own work out which will then be loaded onto another create page. 
